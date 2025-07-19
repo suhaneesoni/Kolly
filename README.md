@@ -1,44 +1,54 @@
-# 🏗️ Kolly: Full-Stack Dashboard for India's female-led VCs
+# 👩‍💼 Kolly: Dashboard for India’s Leading Female-Led VC Firms
 
-CementInsight is a modern, responsive full-stack web application designed to visualize key operational and financial metrics across India's leading cement companies. It empowers stakeholders, analysts, and decision-makers with actionable insights through interactive dashboards, intuitive data visualizations, and real-time analytics.
+**Kolly** is a modern, responsive full-stack web application that visualizes key operational and financial metrics across India’s top **female-led venture capital (VC) firms**. Built for investors, founders, researchers, and policymakers, Kolly offers a centralized platform to explore capital flow, fund performance, leadership data, and gender equity in venture funding.
 
 ## 🌐 Live Demo
-> Coming Soon
+> Coming soon
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- 📊 **Interactive Dashboards**: Compare operational KPIs and financial metrics side-by-side.
-- 🏭 **Company Profiles**: Deep dives into companies like UltraTech, ACC, Shree Cement, Dalmia Bharat, and more.
-- 🧮 **Real-Time Data Pipelines**: ETL pipeline integrated with APIs and datasets for live updates.
-- 🔍 **Filter & Search**: Analyze by region, production capacity, revenue, ESG scores, etc.
-- 📈 **Visualizations**: Time-series charts, bar graphs, heatmaps, and pie charts powered by Recharts / D3.js.
-- 🛠️ **Admin Panel**: Manage data ingestion and user roles.
-- 🌙 **Dark/Light Mode**: Modern, accessible UI with theme toggling.
+- 📊 **Interactive Dashboards**  
+  Visualize AUM, funding rounds, portfolio health, exit performance, and more.
+
+- 👩‍💼 **Female Leadership Insights**  
+  Explore the role and impact of women in leadership across India’s VC ecosystem.
+
+- 🔍 **Advanced Filtering & Comparison**  
+  Filter by sector, stage, ticket size, geography, and firm age.
+
+- 📈 **Dynamic Visualizations**  
+  Line charts, bar graphs, waterfall charts, and custom VC funnel visualizations.
+
+- 🧠 **Smart Insights Engine** *(coming soon)*  
+  Surface insights and trends using ML-based analytics.
+
+- 🛡️ **Secure & Scalable**  
+  Role-based access, scalable infrastructure, and modular API architecture.
 
 ---
 
 ## 🧱 Tech Stack
 
-**Frontend**  
+**Frontend**
 - React + TypeScript  
 - Tailwind CSS + Shadcn/UI  
-- Recharts / D3.js for visualizations  
-- Zustand for state management
+- Recharts / Victory.js / D3.js  
+- Zustand (state management)
 
-**Backend**  
-- Node.js + Express.js  
-- PostgreSQL (hosted on Supabase)  
+**Backend**
+- Node.js + Express  
+- PostgreSQL (Supabase hosted)  
 - Prisma ORM  
-- RESTful APIs / GraphQL support
+- RESTful APIs
 
-**DevOps & Hosting**  
+**Infrastructure**
 - Docker  
 - Vercel (frontend)  
-- Railway / Render / Heroku (backend)  
+- Railway / Render / Fly.io (backend)  
 - GitHub Actions (CI/CD)
 
 ---
 
-## 📁 Project Structure
+## 📁 Folder Structure
